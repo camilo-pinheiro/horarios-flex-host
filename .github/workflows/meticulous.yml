@@ -66,4 +66,5 @@ jobs:
         uses: alwaysmeticulous/report-diffs-action@v1
         with:
           api-token: ${{ secrets.METICULOUS_API_TOKEN }}
-          app-url: "http://localhost:4200/"
+          use-deployment-url: true
+
