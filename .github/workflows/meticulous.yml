@@ -59,7 +59,7 @@ jobs:
 
       - name: Serve project
         run: |
-          yarn serve &
+          yarn start &
           sleep 5
 
       - name: Run Meticulous tests
